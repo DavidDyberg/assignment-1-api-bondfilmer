@@ -39,12 +39,6 @@
     }
 }
 ```
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
 #### Uppdatera en film baserat på dess IMDB-id
 1. Välj metod PUT i postman.
 2. Skriv in din URL följt av: /movies/"IMDB-idt till filmen du vill uppdatera"?apiKey=5
@@ -71,6 +65,8 @@ För att få tillgång till filmerna måste du skriva in en giltig API-nyckel. F
 2. Skriv in din URL följt av: /addKey
 3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din film. I bodyn, skriv in information på din nya nyckel enligt strukturen nedan.
 
+```
 {
   "apiKey": "50"
 }
+```
