@@ -12,7 +12,7 @@
 
 3. För varje API-slutpunkt, skapa en ny "Request" i din collection och konfigurera den med rätt metod och URL (enligt beskrivningen nedanför).
 
-4. Skiv in rätt API-nyckel för att få tillgång till APIN. Gör detta genom att lägga till "?apiKey=5" i slutet av din URL.
+4. Skiv in rätt API-nyckel för att få tillgång till APIN. Se detta under rubriken "Hantera Api-nycklar" nedan.
 
 5. För POST och PUT-anrop, gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din karaktär enligt exempel nedan.
 
