@@ -36,7 +36,7 @@
         "Genre": ""
     }
 }
-```
+´´´
 #### Uppdatera en film baserat på dess IMDB-id
 1. Välj metod PUT i postman.
 2. Skriv in din URL följt av: /movies/"IMDB-idt till filmen du vill uppdatera"?apiKey=5
