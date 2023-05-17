@@ -5,7 +5,6 @@
 3. Kör npm run dev för att starta servern.
 
 ## Testa APIet med postman
-
 1. Ladda ner och installera Postman om du inte redan har det installerat.
 
 2. Skapa en ny "Collection" i Postman.
@@ -27,9 +26,9 @@
 #### Skapa en ny film
 1. Välj metod POST i postman.
 2. Skriv in din URL följt av: /movies?apiKey=5
-3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din film. I bodyn, skriv in information på din film enligt strukturen nedan. Välj själv vad du vill skriva!
+3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din film. I bodyn, skriv in information på din film enligt strukturen nedan. OBS! Fälten [Title, Year, Released och Genre] är obligatoriska och måste vara ifyllda. Year måste vara numeriskt.
 
-```
+``` 
 {
     "movie": {
         "Title": "",
@@ -42,14 +41,11 @@
 #### Uppdatera en film baserat på dess IMDB-id
 1. Välj metod PUT i postman.
 2. Skriv in din URL följt av: /movies/"IMDB-idt till filmen du vill uppdatera"?apiKey=5
-3. Använd dig av samma struktrur som ovan.
-
+3. Använd dig av samma struktrur som ovan (Här finns inga obligatoriska fält att uppdatera).
 #### Ta bort en film baserat på dess IMDB-id
 1. Välj metod DELETE i postman.
 2. Skriv in din URL följt av: /movies/"IMDB-idt till filmen du vill radera"?apiKey=5
-
 ## Hantera Api-nycklar
-
 ### Implementera API-nyckeln i din URL
 För att få tillgång till filmerna måste du skriva in en giltig API-nyckel. Följ instruktionerna nedan för att implementera en giltig nyckel.
 
@@ -63,7 +59,7 @@ För att få tillgång till filmerna måste du skriva in en giltig API-nyckel. F
 ### Lägg till en ny API-nyckel
 1. Välj metod POST i postman.
 2. Skriv in din URL följt av: /addKey
-3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din film. I bodyn, skriv in information på din nya nyckel enligt strukturen nedan.
+3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din nyckel. I bodyn, skriv in information på din nya nyckel enligt strukturen nedan.
 
 ```
 {
