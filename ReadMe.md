@@ -49,7 +49,7 @@
 ### Implementera API-nyckeln i din URL
 För att få tillgång till filmerna måste du skriva in en giltig API-nyckel. Följ instruktionerna nedan för att implementera en giltig nyckel.
 
-1. Välj en giltig API-nyckel från denna lista: ['2',5','6','8','10']
+1. Välj en giltig API-nyckel från denna lista: [ '2', 5', '6', '8', '10' ]
 2. Skriv in '?apiKey=' i slutet av din URL följt av en av siffrorna från listan ovan.
 3. Om nycklen är inskriven korrekt så kan du börja utforska APIet!
 ### Ta bort en API-nyckel
