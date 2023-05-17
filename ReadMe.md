@@ -47,7 +47,7 @@
 
 ## Hantera Api-nycklar
 
-## Implementera API-nyckeln i din URL
+### Implementera API-nyckeln i din URL
 För att få tillgång till filmerna måste du skriva in en giltig API-nyckel. Följ instruktionerna nedan för att implementera en giltig nyckel.
 
 1. Välj en giltig API-nyckel från denna lista: ['5','6','8']
