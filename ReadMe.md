@@ -28,7 +28,9 @@
 1. Välj metod POST i postman.
 2. Skriv in din URL följt av: /movies?apiKey=5
 3. Gå till fliken "Body" i din request och välj "raw" och "JSON" som format. Skriv sedan in JSON-data för din film. I bodyn, skriv in information på din film enligt strukturen nedan. Välj själv vad du vill skriva!
-```{
+
+```
+{
     "movie": {
         "Title": "",
         "Year": "",
